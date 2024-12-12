@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f8b400, #f85f73); /* Gradient background */
+    color: #333; /* Text color for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+}
+
+h1, h3, h4 {
+    margin-bottom: 1rem;
+}
+
+img {
+    border: 3px solid #ddd;
+}
+button img {
+    vertical-align: middle;
+}
+.clearance-form {
+    max-width: 900px; /* Adjust the maximum width as needed */
+    max-height: 900px; /* Adjust the maximum height as needed */
+    width: auto;      /* Maintain aspect ratio */
+    height: auto;     /* Maintain aspect ratio */
+    border: 2px solid #ddd; /* Optional: Add a border for styling */
+}
